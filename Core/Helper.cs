@@ -24,7 +24,7 @@ namespace NeuronDotNet.Core
     /// <summary>
     /// This static class contains all helper functions used in this project.
     /// </summary>
-    internal static class Helper
+    public static class Helper
     {
         private static readonly Random random = new Random();
 
@@ -40,7 +40,7 @@ namespace NeuronDotNet.Core
         /// <exception cref="ArgumentNullException">
         /// If <c>value</c> is <c>null</c>
         /// </exception>
-        internal static void ValidateNotNull(object value, string name)
+        public static void ValidateNotNull(object value, string name)
         {
             if (value == null)
             {
@@ -103,7 +103,7 @@ namespace NeuronDotNet.Core
         /// <exception cref="ArgumentException">
         /// If value is zero or negative
         /// </exception>
-        internal static void ValidatePositive(double value, string name)
+        public static void ValidatePositive(double value, string name)
         {
             if (value <= 0)
             {
@@ -172,7 +172,7 @@ namespace NeuronDotNet.Core
         /// <returns>
         /// The generated array.
         /// </returns>
-        internal static int[] GetRandomOrder(int size)
+        public static int[] GetRandomOrder(int size)
         {
             int[] randomOrder = new int[size];
 
