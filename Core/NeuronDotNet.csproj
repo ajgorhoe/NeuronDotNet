@@ -1,7 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-    <OutputType>Library</OutputType>
+	  <!--
+	Experimental frameworks:
+    <TargetFrameworks>net9.0;net8.0;net6.0;net48;netstandard2.0</TargetFrameworks>
+	Actual frameworks:
+    <TargetFrameworks>net8.0;net48</TargetFrameworks>
+	-->
+
+	<TargetFrameworks>net9.0;net8.0;net6.0;net48;netstandard2.0</TargetFrameworks>
+	<OutputType>Library</OutputType>
     <RootNamespace>NeuronDotNet.Core</RootNamespace>
     <AssemblyName>NeuronDotNet.Core</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
