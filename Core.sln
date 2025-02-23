@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D5B56684-0C33-4195-B3D6-D1576B739E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronDotNet", "Core\NeuronDotNet.csproj", "{1E3A3F02-FEE9-491A-AF28-6088A8738876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{D5B56684-0C33-4195-B3D6-D1576B739E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5B56684-0C33-4195-B3D6-D1576B739E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5B56684-0C33-4195-B3D6-D1576B739E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3A3F02-FEE9-491A-AF28-6088A8738876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3A3F02-FEE9-491A-AF28-6088A8738876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3A3F02-FEE9-491A-AF28-6088A8738876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3A3F02-FEE9-491A-AF28-6088A8738876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
